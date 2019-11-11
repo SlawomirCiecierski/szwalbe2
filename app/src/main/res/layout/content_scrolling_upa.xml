@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ScrollingActivityCV"
+    tools:showIn="@layout/activity_scrolling_upa">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="@string/action_settings_upa"
+            android:textSize="@dimen/title_font_dimension" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="214dp"
+
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/starczak_kozlowska"
+            android:src="@drawable/starczak_kozlowska" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/large_text_Upa1" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="410dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/text_margin"
+            android:contentDescription="@string/szwalbe_ksiazka"
+            android:src="@drawable/szwalbe_ksiazka" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/large_text_Upa2" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="400dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/text_margin"
+            android:contentDescription="@string/szwalbe_tablica"
+            android:src="@drawable/szwalbe_tablica" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/large_text_Upa3" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/text_margin"
+            android:contentDescription="@string/ul_szwalbego"
+            android:src="@drawable/ul_szwalbego" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/large_text_Upa4" />
+
+        <ImageView
+            android:id="@+id/www_soundcloud"
+            android:onClick="onClickOpenSoundcloud"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/soundcloud_szwalbe"
+            android:src="@drawable/soundcloud_szwalbe" />
+
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
