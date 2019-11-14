@@ -1,7 +1,6 @@
 package pl.ciecierski.szwalbe2;
 
-import android.content.Intent;
-import android.net.Uri;
+
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -77,18 +76,20 @@ public class ScrollingActivityUpa extends AppCompatActivity {
                 setContentView(R.layout.activity_scrolling_upa);
                 return true;
             case R.id.action_settings_WV:
-                setContentView(R.layout.activity_scrolling_wv_soundcloud);
+                setContentView(R.layout.activity_scrolling_lin);
                 return true;
 
         }
         return super.onOptionsItemSelected(item);
     }
 
-    public void onClickOpenSoundcloud(View view) {
-        Uri uri = Uri.parse("https://google.com");
-        Intent intent = new Intent(Intent.ACTION_SCREEN_ON, uri);
-        startActivity(intent);
 
+
+    public void onClickOpenSoundcloud(View view) {
+
+//        Intent intent = new Intent(this,WebViewSoundcloudActivity.class);
+//        startActivity(new Intent(this,WebViewSoundcloudActivity.class));
+        setContentView(R.layout.activity_soundcloud_webview);
 
     }
 

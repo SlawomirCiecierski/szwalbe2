@@ -75,7 +75,7 @@ public class ScrollingActivityHOB extends AppCompatActivity {
                 setContentView(R.layout.activity_scrolling_upa);
                 return true;
             case R.id.action_settings_WV:
-                setContentView(R.layout.activity_scrolling_wv_soundcloud);
+                setContentView(R.layout.activity_scrolling_lin);
                 return true;
 
         }

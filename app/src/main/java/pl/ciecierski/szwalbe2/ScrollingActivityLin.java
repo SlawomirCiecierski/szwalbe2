@@ -16,14 +16,14 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import static pl.ciecierski.szwalbe2.methods.MyMethods.showMyToast;
 
-public class ScrollingActivityWV extends AppCompatActivity {
+public class ScrollingActivityLin extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
 
-        setContentView(R.layout.activity_scrolling_wv_soundcloud);
+        setContentView(R.layout.activity_scrolling_lin);
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -81,7 +81,7 @@ public class ScrollingActivityWV extends AppCompatActivity {
                 setContentView(R.layout.activity_scrolling_upa);
                 return true;
             case R.id.action_settings_WV:
-                setContentView(R.layout.activity_scrolling_wv_soundcloud);
+                setContentView(R.layout.activity_scrolling_lin);
                 return true;
         }
         return super.onOptionsItemSelected(item);
