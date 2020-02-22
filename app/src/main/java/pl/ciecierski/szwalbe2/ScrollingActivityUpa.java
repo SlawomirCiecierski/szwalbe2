@@ -1,6 +1,7 @@
 package pl.ciecierski.szwalbe2;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -22,11 +23,10 @@ public class ScrollingActivityUpa extends AppCompatActivity {
 
         setContentView(R.layout.activity_scrolling_upa);
 
-
-        Toolbar toolbar =  findViewById(R.id.toolbar);
+        Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab =  findViewById(R.id.fab);
+        FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -34,7 +34,6 @@ public class ScrollingActivityUpa extends AppCompatActivity {
             }
         });
     }
-
 
 
     @Override
@@ -46,7 +45,7 @@ public class ScrollingActivityUpa extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab =  findViewById(R.id.fab);
+        FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -85,13 +84,6 @@ public class ScrollingActivityUpa extends AppCompatActivity {
 
 
 
-    public void onClickOpenSoundcloud(View view) {
-
-//        Intent intent = new Intent(this,WebViewSoundcloudActivity.class);
-//        startActivity(new Intent(this,WebViewSoundcloudActivity.class));
-        setContentView(R.layout.activity_soundcloud_webview);
-
-    }
 
 
 }

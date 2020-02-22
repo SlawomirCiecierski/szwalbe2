@@ -1,20 +1,18 @@
 package pl.ciecierski.szwalbe2;
 
-
 import android.os.Bundle;
 import android.webkit.WebView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class WebViewSoundcloudActivity extends AppCompatActivity {
+public class Www3Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_soundcloud_webview);
         WebView webView = findViewById(R.id.webview);
-        webView.loadUrl("https://soundcloud.com/ciecierski/szwalbe");
-
+        webView.loadUrl("https://archiwummuzyczne.pl/musics/people/57");
     }
 
 
@@ -23,6 +21,5 @@ public class WebViewSoundcloudActivity extends AppCompatActivity {
         super.onRestart();
         this.onBackPressed();
     }
-
 
 }

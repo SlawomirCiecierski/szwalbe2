@@ -16,12 +16,40 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/www_soundcloud"
-            android:layout_width="wrap_content"
+            android:id="@+id/stronawww1"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Muzyka"
-            android:onClick="onClickOpenSoundcloud"
-            />
+            android:layout_gravity="fill_horizontal"
+            android:layout_margin="20dp"
+            android:background="@color/design_default_color_background"
+            android:onClick="onClickBtnWww1"
+            android:text="Stowarzyszenie dziedzictwo"
+            android:textColor="@color/colorAccent" />
+
+
+        <Button
+            android:id="@+id/stronawww3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:layout_margin="20dp"
+            android:background="@color/design_default_color_background"
+            android:onClick="onClickBtnWww3"
+            android:text="Akademia Muzyczna"
+            android:textColor="@color/colorAccent" />
+
+        <Button
+            android:id="@+id/stronawww4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:layout_margin="20dp"
+            android:background="@color/design_default_color_background"
+            android:onClick="onClickBtnWww4"
+            android:text="Honorowy Obywatel Bydgoszczy"
+            android:textColor="@color/colorAccent" />
+
+
 
     </LinearLayout>
 

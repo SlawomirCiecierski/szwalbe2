@@ -1,26 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    tools:context="pl.ciecierski.szwalbe2.ScrollingActivityCV">
-    <item android:id="@+id/action_settings_CV"
-        android:title="@string/action_settings_cv"
-        android:orderInCategory="100"
-        app:showAsAction="never"/>
-    <item android:id="@+id/action_settings_HOB"
-        android:title="@string/action_settings_hob"
-        android:orderInCategory="101"
-        app:showAsAction="never"/>
-    <item android:id="@+id/action_settings_Odz"
-        android:title="@string/action_settings_odz"
-        android:orderInCategory="102"
-        app:showAsAction="never"/>
-    <item android:id="@+id/action_settings_Upa"
-        android:title="@string/action_settings_upa"
-        android:orderInCategory="103"
-        app:showAsAction="never"/>
+    xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/action_settings_WV"
-        android:orderInCategory="104"
-        android:title="@string/action_settings_wv"
-        app:showAsAction="never" />
+        android:id="@+id/action_wybierz"
+        android:orderInCategory="100"
+        android:title="Wybierz.."
+        app:showAsAction="always">
+
+
+        <menu>
+            <item
+                android:id="@+id/action_settings_CV"
+                android:title="@string/action_settings_cv" />
+            <item
+                android:id="@+id/action_settings_HOB"
+                android:title="@string/action_settings_hob" />
+            <item
+                android:id="@+id/action_settings_Odz"
+                android:title="@string/action_settings_odz" />
+            <item
+                android:id="@+id/action_settings_Upa"
+                android:title="@string/action_settings_upa" />
+            <item
+                android:id="@+id/action_settings_WV"
+                android:title="@string/action_settings_wv" />
+        </menu>
+
+    </item>
 </menu>

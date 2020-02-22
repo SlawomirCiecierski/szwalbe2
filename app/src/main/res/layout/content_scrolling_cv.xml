@@ -23,11 +23,13 @@
         android:layout_gravity="center_horizontal"
         android:src="@drawable/cytat1"
         android:contentDescription="@string/cytat" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/large_text_CV1"/>
-    <ImageView
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/large_text_CV1" />
+
+        <ImageView
         android:layout_width="wrap_content"
         android:layout_height="280dp"
         android:layout_gravity="center_horizontal"

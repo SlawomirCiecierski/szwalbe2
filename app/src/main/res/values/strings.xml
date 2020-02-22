@@ -82,9 +82,8 @@
         cmentarzu katolickim Najświętszego Serca Jezusa w Bydgoszczy przy ul. Ludwikowo 2."
     </string>
 
-    <string name="large_text_HOB">
-        "18 marca 1993r. Rada Miasta przyznała mu godność <i>Honorowego Obywatela Bydgoszczy</i>. Był to pierwszy tytuł
-        Honorowego Obywatela przyznany od 1945r."
+    <string name="large_text_HOB">\n18 marca 1993r. Rada Miasta przyznała mu godność <i>Honorowego Obywatela Bydgoszczy</i>. Był to pierwszy tytuł
+        Honorowego Obywatela przyznany od 1945r.
     </string>
 
     <string name="large_text_Odz1">
@@ -124,7 +123,7 @@
     <string name="action_settings_hob">Honorowy Obywatel Bydgoszczy</string>
     <string name="action_settings_odz">Odznaczenia</string>
     <string name="action_settings_upa">Upamiętnienie</string>
-    <string name="action_settings_wv">Muzyka</string>
+    <string name="action_settings_wv">Linki</string>
     <string name="starczak_kozlowska">starczak_kozlowska</string>
     <string name="cytat">cytat</string>
     <string name="budowa_filharmonii">budowa filharmonii</string>

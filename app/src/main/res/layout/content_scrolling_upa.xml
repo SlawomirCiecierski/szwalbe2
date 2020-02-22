@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".ScrollingActivityCV"
+    tools:context=".ScrollingActivityUpa"
     tools:showIn="@layout/activity_scrolling_upa">
 
     <LinearLayout
@@ -76,13 +76,22 @@
 
         <ImageView
             android:id="@+id/www_soundcloud"
-            android:onClick="onClickOpenSoundcloud"
             android:layout_width="wrap_content"
             android:layout_height="250dp"
             android:layout_gravity="center_horizontal"
             android:contentDescription="@string/soundcloud_szwalbe"
             android:src="@drawable/soundcloud_szwalbe" />
 
+        <Button
+            android:id="@+id/muzyka1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:layout_margin="20dp"
+            android:background="@color/design_default_color_background"
+            android:onClick="onClickBtnMuzyka"
+            android:text="Szwalbe"
+            android:textColor="@color/colorAccent" />
 
     </LinearLayout>
 

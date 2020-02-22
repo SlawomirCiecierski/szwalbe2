@@ -87,11 +87,7 @@ public class ScrollingActivityLin extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void onClickOpenSoundcloud(View view) {
-        Uri uri = Uri.parse("https://google.com");
-        Intent intent = new Intent(Intent.ACTION_SCREEN_ON, uri);
-        startActivity(intent);
-    }
+
 
 
 
